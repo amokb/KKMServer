@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+    <FiscalPrinter>
+        <Device1>
+            <Images>
+                <Image Digest="image1" FileName="File name 1"
+                    FirstLine="1" Height="13" IsLoaded="1"/>
+                <Image Digest="image2" FileName="File name 2"
+                    FirstLine="14" Height="12" IsLoaded="0"/>
+            </Images>
+            <ReceiptImages>
+                <ReceiptImage ImageIndex="1" Position="2"/>
+            </ReceiptImages>
+            <Header>
+                <Line DoubleWidth="0" Text="HeaderLine 1"/>
+                <Line DoubleWidth="1" Text="HeaderLine 2"/>
+                <Line DoubleWidth="0" Text="HeaderLine 3"/>
+                <Line DoubleWidth="0" Text="HeaderLine 4"/>
+            </Header>
+            <Trailer>
+                <Line DoubleWidth="0" Text="TrailerLine 1"/>
+                <Line DoubleWidth="1" Text="TrailerLine 2"/>
+                <Line DoubleWidth="0" Text=""/>
+            </Trailer>
+        </Device1>
+    </FiscalPrinter>
+</root>
